@@ -1,0 +1,307 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*map style start*/
+.med-info-window a {
+    font-size: 12px;
+}
+
+.med-info-window .contact-para {
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.med-info-window .other-para {
+    font-size: 12px;
+}
+
+/*map style end*/
+
+.dr-profile-avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.doctor-list-box {
+    background-color: #FFFFFF;
+    padding: 29px 2% 19px;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(158, 158, 158, 0.4);
+    box-shadow: 0px 1px 1px 0px rgba(158, 158, 158, 0.4);
+}
+
+.dr-list .dr-user-specialist {
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.dr-list .dr-name {
+    font-weight: 800;
+}
+
+.dr-list .designation {
+    font-size: 13px;
+    line-height: 1.5em;
+    font-weight: 900;
+}
+
+.dr-list .chamber {
+    font-weight: 600;
+    color: #5d5d5d;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.dr-list .organization {
+    font-size: 13px;
+    line-height: 1.5em;
+    font-weight: 900;
+}
+
+.total-doctor-found-near {
+    color: #b3b3b3;
+    font-weight: 900;
+}
+
+.doctor-details-info h4 {
+    color: #636363;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 7px;
+}
+
+.doctor-details-info address strong {
+    font-size: 15px;
+    font-weight: 900;
+    color: #f3a303;
+}
+
+.doctor-details-info .long-info {
+    font-size: 14px;
+    font-weight: 700;
+    color: #818181;
+}
+
+.rules-for-do {
+    font-weight: 800;
+    color: #5d5d5d;
+    line-height: 2.3rem;
+}
+
+.rules-for-do h3 {
+    font-weight: 900;
+}
+
+.rules-for-do h4 {
+    font-weight: 900;
+}
+
+.rules-for-do p {
+    line-height: 1.3em;
+    color: #bd8835;
+}
+
+.rules-for-do ul li {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+.doctors-form form input[type="text"] {
+    border: 1px solid #e8e7e7;
+}
+
+.filter-button-st {
+    background: #fff;
+    font-size: 15px;
+    border: none;
+    padding: 0px;
+    font-weight: bolder;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*=========================================================*/
+.box-why-doctor-create-profile {
+    background-color: black;
+    padding: 20px;
+    position: relative;
+}
+
+
+.box-why-doctor-create-profile.arrow-top-doctor {
+    margin-top: 16px;
+}
+
+.box-why-doctor-create-profile.arrow-top-doctor:after {
+    content: " ";
+    position: absolute;
+    left: 33px;
+    top: -15px;
+    border-top: none;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid black;
+}
+
+.box-why-doctor-create-profile.arrow-top-doctor-right {
+    margin-top: 15px;
+}
+
+.box-why-doctor-create-profile.arrow-top-doctor-right:after {
+    content: " ";
+    position: absolute;
+    right: 33px;
+    top: -15px;
+    border-top: none;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid black;
+}
+
+/*===================================================*/
+/*doctors filter start*/
+
+.filter-bg-p {
+    background-color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.filter-btn-top {
+    background-color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 0px;
+    border: 2px solid #5790BC;
+}
+
+/*===================================================*/
+/*doctors filter end*/
+
+
+.text-and-back-btn {
+    background-color: #EAEAEA;
+    padding: 2px 12px 5px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+/*review start*/
+.consultant-review-start {
+    word-spacing: 0px !important;
+}
+
+.reviews-start {
+    color: #FC9736;
+    font-size: 17px;
+}
+
+.cons-review-progress-bar .cons-visible-progress {
+    width: 84%;
+    padding-left: 8px;
+}
+
+.cons-review-progress-bar .cons-visible-progress .cons-visible-progress-bar {
+    margin-bottom: 0px;
+    margin-top: 2px;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 3px;
+    background-color: #eaeaea !important;
+}
+
+.cons-review-progress-bar .cons-visible-progress .cons-visible-progress-bar .core-progress-v {
+    background: #fc9835 !important;
+}
+
+/*review end*/
+
+/*submit a review for consultant start*/
+.star-select-review div.stars {
+    display: inline-block;
+}
+
+.star-select-review input.star {
+    display: none;
+}
+
+.star-select-review label.star {
+    visibility: visible;
+    float: right;
+    font-size: 24px !important;
+    color: #444;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    margin-right: 5px;
+}
+
+.star-select-review input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #FC9736;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+.star-select-review input.star-5:checked ~ label.star:before {
+    color: #FC9736;
+    text-shadow: 0 0 20px #952;
+}
+
+.star-select-review input.star-1:checked ~ label.star:before {
+    color: red;
+}
+
+.star-select-review label.star:hover {
+    -webkit-transform: rotate(-15deg) scale(1.3);
+    -ms-transform: rotate(-15deg) scale(1.3);
+    transform: rotate(-15deg) scale(1.3);
+}
+
+.star-select-review label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+}
+
+.star-select-review [type="radio"]:checked + label:before {
+    border-radius: 0% !important;
+    border: 0px solid transparent !important;
+}
+
+/*submit a review for consultant end*/

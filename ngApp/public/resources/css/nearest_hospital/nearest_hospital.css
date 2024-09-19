@@ -1,0 +1,174 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.nearest-health-center button {
+    position: absolute;
+    border-radius: 0px;
+    outline: none;
+}
+
+.nearest-health-center .input-form-group {
+    margin-right: 37px;
+}
+
+.nearest-health-center input {
+    border-radius: 0px;
+    margin-left: 37px;
+}
+
+#totalHealthCenter {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    font-size: 9px;
+    padding: 3px;
+    bottom: 0;
+    background-color: #5790BC;
+    color: #fff;
+    border-radius: 7px;
+    text-align: center;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(158, 158, 158, 0.4);
+    box-shadow: 0px 1px 1px 1px rgba(158, 158, 158, 0.4);
+}
+
+.reset-search-field-btn {
+    z-index: 99;
+    position: absolute;
+    top: 4px;
+    right: 12px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #868484;
+}
+
+/*=====================================================*/
+#listing {
+    position: absolute;
+    width: 200px;
+    height: 470px;
+    overflow: auto;
+    left: 442px;
+    top: 0px;
+    cursor: pointer;
+    overflow-x: hidden;
+}
+
+#findhotels {
+    position: absolute;
+    text-align: right;
+    width: 100px;
+    font-size: 14px;
+    padding: 4px;
+    z-index: 5;
+    background-color: #fff;
+}
+
+#locationField {
+    position: absolute;
+    width: 50%;
+    height: 26px;
+    top: 7px;
+    z-index: 5;
+    background-color: #fff;
+    right: 24px;
+}
+
+#controls {
+    position: absolute;
+    left: 300px;
+    width: 140px;
+    top: 0px;
+    z-index: 5;
+    background-color: #fff;
+}
+
+#autocomplete {
+    width: 100%;
+}
+
+#country {
+    width: 100%;
+}
+
+.placeIcon {
+    width: 20px;
+    height: 34px;
+    margin: 4px;
+}
+
+.hotelIcon {
+    width: 24px;
+    height: 24px;
+}
+
+#resultsTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#rating {
+    font-size: 13px;
+    font-family: Arial Unicode MS;
+}
+
+.iw_table_row {
+    height: 18px;
+}
+
+.iw_attribute_name {
+    font-weight: bold;
+    text-align: right;
+}
+
+.iw_table_icon {
+    text-align: right;
+}
+
+#iw-url {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.enter_your_place {
+    height: 40px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.73);
+    border: 1px solid rgba(244, 67, 54, 0.51);
+}
+
+#results tr {
+    cursor: pointer;
+}
+
+#info-content {
+    max-width: 450px;
+}
+
+.contact-para {
+    margin-top: 12px;
+}
+
+.contact-para-add {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.other-para {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.iw-subTitle {
+    font-size: 16px;
+    font-weight: 900;
+    padding: 5px 0;
+    color: #000;
+    line-height: 18px;
+}

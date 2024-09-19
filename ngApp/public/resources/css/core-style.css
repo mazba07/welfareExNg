@@ -1,0 +1,492 @@
+/* font-family: 'Noto Serif Bengali', serif;
+font-family: 'Nunito', sans-serif; */
+
+/*main color #5790BC*/
+
+/*Start common css*/
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFFFFF;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: "Nunito", "Noto Serif Bengali", sans-serif, serif;
+    background: url(../images/body_bg11.jpg);
+}
+
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body a:hover {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    color: #39698e;
+}
+
+body a:focus, a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    margin: 0;
+    color: #444444;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.9em;
+    word-wrap: break-word;
+    font-family: "Nunito", "Noto Serif Bengali", sans-serif, serif;
+    /*word-break: normal;*/
+    /*-webkit-tap-highlight-color: transparent;*/
+    /*font-family: 'PT Serif',Helvetica,Arial,sans-serif;*/
+    /*font-size: 18px;*/
+    /*font-kerning: normal;*/
+    /*text-rendering: optimizeSpeed;*/
+    /*-webkit-font-variant-ligatures: common-ligatures;*/
+    /*-moz-font-variant-ligatures: common-ligatures;*/
+    /*font-variant-ligatures: common-ligatures;*/
+    /*-moz-font-feature-settings: "liga","clig";*/
+    /*-webkit-font-feature-settings: "liga","clig";*/
+    /*font-feature-settings: "liga","clig";*/
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    margin: 0;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+.loader-icon {
+    content: " ";
+    background-color: transparent;
+    background: url(https://www.welfarebd.com/public/resources/images/welfarebd-loading2.svg);
+    background-repeat: no-repeat;
+    height: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75px 75px;
+}
+
+.no-active-focus {
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.margin-top-15px {
+    margin-top: 15px !important;
+}
+
+.margin-right-15px {
+    margin-right: 15px !important;
+}
+
+.margin-left-15px {
+    margin-left: 15px !important;
+}
+
+.margin-bottom-15px {
+    margin-bottom: 15px !important;
+}
+
+.margin-top-80px {
+    margin-top: 80px !important;
+}
+
+.margin-bottom-80px {
+    margin-bottom: 80px !important;
+}
+
+.margin-top-30px {
+    margin-top: 30px !important;
+}
+
+.margin-bottom-30px {
+    margin-bottom: 30px !important;
+}
+
+.margin-top-7px {
+    margin-top: 7px !important;
+}
+
+.margin-bottom-7px {
+    margin-bottom: 7px !important;
+}
+
+.margin-top-140px {
+    margin-top: 140px !important;
+}
+
+.divider {
+    height: 1px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    margin: 2px 0px;
+}
+
+.zero-padding {
+    /* padding: 0px; */
+}
+
+.alert-danger > p {
+    color: #a94442 !important;
+}
+
+.common-page-wrapper {
+    margin-top: 56px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.common-display-none {
+    display: none !important;
+}
+
+.common-display-block {
+    display: none;
+}
+
+.common-btn {
+    color: #FFF;
+    background: #E06A41;
+    padding: 10px 16px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 0 0 0 #039be5;
+    box-shadow: inset 0 0 0 0 #039be5;
+    -webkit-transition: all ease 0.8s;
+    -o-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+    border: none;
+}
+
+.common-btn:hover {
+    -webkit-box-shadow: inset 0 100px 0 0 #039be5;
+    box-shadow: inset 0 100px 0 0 #039be5;
+    color: #fff;
+}
+
+.common-btn2 {
+    border: 1px solid #cdcdcd !important;
+    margin-top: 20px !important;
+    line-height: 20px !important;
+    height: 33px !important;
+    color: #000 !important;
+    background: #fff !important;
+}
+
+.common-btn2:hover {
+    background-color: #039be5 !important;
+    color: #FFFFFF !important;
+}
+
+.common-btn4 {
+    border: 2px solid #cdcdcd !important;
+    margin-top: 20px !important;
+    line-height: 20px !important;
+    height: 36px !important;
+    color: #337ab7 !important;
+    background: #fff !important;
+    border-radius: 0px;
+    font-weight: 900;
+    padding: 6px 16px;
+}
+
+.common-btn4:hover {
+    border: 2px solid #337ab7 !important;
+}
+
+.common-title {
+    font-weight: 700;
+    padding-bottom: .5em;
+    position: relative;
+    text-transform: capitalize;
+    margin: 79px 0px 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.common-title:after {
+    content: '';
+    background: #5790BC;
+    height: 2px;
+    width: 21%;
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+}
+
+.common-title-top {
+    margin-top: 0px;
+}
+
+.common-title2 {
+    font-weight: bold;
+    /*padding-bottom: .5em;*/
+    position: relative;
+    text-transform: capitalize;
+    padding-top: 19px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 16px;
+}
+
+.common-title2:after {
+    content: '';
+    background: #e8e6e6;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: -20%;
+    left: 0%;
+}
+
+.common-title2:before {
+    content: '';
+    background: #5790BC;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 44px;
+}
+
+.common-title-3 {
+    font-weight: 700;
+    padding-bottom: .5em;
+    position: relative;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+}
+
+.common-red-color {
+    color: #e95420;
+}
+
+.common-blue-color {
+    color: #5790BC;
+}
+
+.common-green-color {
+    color: #0e8420;
+}
+
+.common-black-color {
+    color: #333333;
+}
+
+.common-white-color {
+    color: #FFFFFF;
+}
+
+.common-spacial-instruction {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.common-cursor-pointer {
+    cursor: pointer !important;
+}
+
+.no-active-focus:active, .no-active-focus:focus {
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.common-shadow-block {
+    background-color: #FFFFFF;
+    padding: 32px 4% 19px;
+    -webkit-box-shadow: 0px 2px 2px 1px rgba(158, 158, 158, 0.4);
+    box-shadow: 0px 2px 2px 1px rgba(158, 158, 158, 0.4);
+}
+
+.common-custom-progress {
+    margin-top: 12px;
+    height: 6px;
+}
+
+form input[type="text"], form input[type="email"], form input[type="password"], form input[type="search"] {
+    border: 2px solid #a1a1a1;
+    padding: 4px 10px;
+    outline: none;
+}
+
+form input[type="text"]:focus, form input[type="email"]:focus, form input[type="password"], form input[type="search"]:focus {
+    border: 2px solid #a1a1a1;
+}
+
+.med-select {
+    border: 2px solid #a1a1a1;
+}
+
+.med-textarea {
+    border: 2px solid #a1a1a1;
+    padding: 4px 10px;
+    outline: none;
+}
+
+.med-textarea:focus {
+    border: 2px solid #a1a1a1;
+}
+
+.med-checkbox {
+    cursor: pointer;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.med-checkbox:before {
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid #5790BC;
+}
+
+.med-checkbox:checked:before {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: .5rem;
+    border-color: #009688;
+    border-top-style: none;
+    border-right-style: none;
+}
+
+.med-checkbox:after {
+    content: "";
+    position: absolute;
+    top: -0.125rem;
+    left: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #fff;
+    cursor: pointer;
+}
+
+.healthy-living-add {
+    font-size: 12px;
+}
+
+/*modal position start*/
+.come-from-modal.left .modal-dialog,
+.come-from-modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.come-from-modal.left .modal-content,
+.come-from-modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+    border-radius: 0px;
+}
+
+.come-from-modal.left .modal-body,
+.come-from-modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+/*Left*/
+.come-from-modal.left.fade .modal-dialog {
+    left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.come-from-modal.left.fade.in .modal-dialog {
+    left: 0;
+}
+
+/*Right*/
+.come-from-modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.come-from-modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+.maximum-one-line {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.maximum-two-line {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.maximum-three-line {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.maximum-four-line {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+/*modal position end*/
+
+/*End common css*/

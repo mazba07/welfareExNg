@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('../public/resources/css/core-style.css');
+@import url('../public/resources/css/med-style.css');
+@import url('../public/resources/css/doctor_profile/doctor-profile.css');
+@import url('../public/resources/css/site-responsive-style.css');
+@import url('../public/resources/css/icon-svg/icon-style.css');
